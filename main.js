@@ -33,5 +33,10 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     // Enable switch exhaustiveness check.
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
+    // Strict boolean expressions.
+    '@typescript-eslint/strict-boolean-expressions': [
+      'error',
+      { allowNullableBoolean: true, allowNullableString: true, allowNullableNumber: true },
+    ],
   },
 };
