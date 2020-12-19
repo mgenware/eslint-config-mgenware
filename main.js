@@ -15,6 +15,11 @@ module.exports = {
       'always',
       { exceptAfterSingleLine: true },
     ],
+    '@typescript-eslint/lines-between-class-members': [
+      'error',
+      'always',
+      { exceptAfterSingleLine: true },
+    ],
     // Allow multiple classes per file.
     'max-classes-per-file': 'off',
     // Loosen destructuring rules.
@@ -29,6 +34,8 @@ module.exports = {
     'implicit-arrow-linebreak': 'off',
     // Handled by prettier.
     'object-curly-newline': 'off',
+    // Handled by prettier.
+    'newline-per-chained-call': 'off',
     // Allow non-default exports.
     'import/prefer-default-export': 'off',
     // Allow continue.
@@ -48,5 +55,7 @@ module.exports = {
         allowNullableNumber: true,
       },
     ],
+    //
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 };
