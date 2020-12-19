@@ -14,5 +14,8 @@
     "type": "git",
     "url": "https://github.com/mgenware/eslint-config-mgenware.git"
   },
+  "scripts": {
+    "test": "node ./validate.js"
+  },
   "license": "MIT"
 }
