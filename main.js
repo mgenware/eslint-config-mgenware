@@ -3,9 +3,18 @@ module.exports = {
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-plusplus': 'off',
     // Allow `for-of` loops.
-    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
     // No need an extra line between one-line class members.
-    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
+    'lines-between-class-members': [
+      'error',
+      'always',
+      { exceptAfterSingleLine: true },
+    ],
     // Allow multiple classes per file.
     'max-classes-per-file': 'off',
     // Loosen destructuring rules.
@@ -33,7 +42,11 @@ module.exports = {
     // Strict boolean expressions.
     '@typescript-eslint/strict-boolean-expressions': [
       'error',
-      { allowNullableBoolean: true, allowNullableString: true, allowNullableNumber: true },
+      {
+        allowNullableBoolean: true,
+        allowNullableString: true,
+        allowNullableNumber: true,
+      },
     ],
   },
 };
