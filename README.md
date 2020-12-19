@@ -1,22 +1,25 @@
-# mingru-tsconfig
+# eslint-config-mgenware
 
-A preset `tsconfig.json` for [mingru](https://github.com/mgenware/mingru) projects.
+Another opinionated [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) config.
 
 ## Usage
 
-Install mingru-tsconfig to your project:
+It's recommended to use this config along with `eslint-config-airbnb-typescript-lite`:
 
 ```sh
-# yarn
-yarn add mingru-tsconfig
-# or npm
-npm install mingru-tsconfig --save
+yarn add eslint-config-mgenware eslint "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "eslint-config-airbnb-typescript-lite" "eslint-plugin-import"
 ```
 
-Set `extends` to `mingru-tsconfig` in your local `tsconfig.json`:
+`.eslintrc.js`:
 
-```json
-{
-  "extends": "mingru-tsconfig"
-}
+```js
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  extends: ['airbnb-typescript-lite', 'plugin:@typescript-eslint/recommended', 'mgenware'],
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+    project: './tsconfig.json',
+  },
+};
 ```

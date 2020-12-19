@@ -20,6 +20,10 @@ module.exports = {
     'implicit-arrow-linebreak': 'off',
     // Handled by prettier.
     'object-curly-newline': 'off',
+    // Allow non-default exports.
+    'import/prefer-default-export': 'off',
+    // Allow continue.
+    'no-continue': 'off',
     // No need explicit func return type.
     '@typescript-eslint/explicit-function-return-type': 'off',
     // Allow unused vars with "_" prefix.

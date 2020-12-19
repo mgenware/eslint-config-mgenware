@@ -1,18 +1,18 @@
 {
-  "name": "eslint-config-mgenware-v1",
+  "name": "eslint-config-mgenware",
   "version": "0.0.1",
-  "description": "A preset tsconfig.json for mingru projects",
+  "description": "Another opinionated typescript-eslint config",
   "main": "main.js",
   "author": "Mgenware (https://github.com/mgenware)",
-  "homepage": "https://github.com/mgenware/eslint-config-mgenware-v1",
-  "bugs": "https://github.com/mgenware/eslint-config-mgenware-v1/issues",
+  "homepage": "https://github.com/mgenware/eslint-config-mgenware",
+  "bugs": "https://github.com/mgenware/eslint-config-mgenware/issues",
   "keywords": [
     "eslint",
     "eslint typescript"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mgenware/eslint-config-mgenware-v1.git"
+    "url": "https://github.com/mgenware/eslint-config-mgenware.git"
   },
   "license": "MIT"
 }
