@@ -7,7 +7,7 @@ Another opinionated [typescript-eslint](https://github.com/typescript-eslint/typ
 It's recommended to use this config along with `eslint-config-airbnb-typescript-lite`:
 
 ```sh
-yarn add eslint-config-mgenware eslint "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "eslint-config-airbnb-typescript-lite" "eslint-plugin-import"
+yarn add eslint-config-mgenware eslint "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "eslint-config-airbnb-typescript-lite" "eslint-plugin-import" -D
 ```
 
 `.eslintrc.js`:
