@@ -57,5 +57,7 @@ module.exports = {
     ],
     //
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    // Allow return assignment.
+    'no-return-assign': 'off',
   },
 };
