@@ -55,7 +55,7 @@ module.exports = {
         allowNullableNumber: true,
       },
     ],
-    //
+    // No need explicit module boundary types.
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     // Allow return assignment.
     'no-return-assign': 'off',
