@@ -15,7 +15,13 @@
     "url": "https://github.com/mgenware/eslint-config-mgenware.git"
   },
   "scripts": {
-    "test": "node ./validate.js"
+    "test": "eslint --max-warnings 0 -c ./test/.eslintrc.js --ext .ts test/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.16.0",
+    "typescript": "^4.1.3"
+  }
 }
