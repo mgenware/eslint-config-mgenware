@@ -59,5 +59,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     // Allow return assignment.
     'no-return-assign': 'off',
+    // Disallows non-null assertions using the ! postfix operator.
+    '@typescript-eslint/no-non-null-assertion': 'on',
   },
 };
