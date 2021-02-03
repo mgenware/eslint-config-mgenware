@@ -4,7 +4,7 @@ Another opinionated [typescript-eslint](https://github.com/typescript-eslint/typ
 
 ## Usage
 
-It's recommended to use this config along with `eslint-config-airbnb-typescript-lite`:
+It's recommended to use this config with [eslint-config-airbnb-typescript-lite](https://github.com/mgenware/eslint-config-airbnb-typescript-lite). Example:
 
 ```sh
 yarn add eslint-config-mgenware eslint "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "eslint-config-airbnb-typescript-lite" "eslint-plugin-import" -D
