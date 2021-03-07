@@ -1,5 +1,7 @@
 # eslint-config-mgenware
 
+[![Build Status](https://github.com/mgenware/eslint-config-mgenware/workflows/Build/badge.svg)](https://github.com/mgenware/eslint-config-mgenware/actions)
+
 Another opinionated [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) config.
 
 ## Usage
