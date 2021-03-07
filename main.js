@@ -61,5 +61,7 @@ module.exports = {
     'no-return-assign': 'off',
     // Disallows non-null assertions using the ! postfix operator.
     '@typescript-eslint/no-non-null-assertion': 'error',
+    // Allow multiple assignments.
+    'no-multi-assign': 'off',
   },
 };
