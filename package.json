@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mgenware",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Another opinionated typescript-eslint config",
   "main": "main.js",
   "author": "Mgenware (https://github.com/mgenware)",
