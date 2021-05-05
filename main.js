@@ -1,4 +1,5 @@
 module.exports = {
+  extends: 'airbnb-typescript-lite',
   rules: {
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-plusplus': 'off',

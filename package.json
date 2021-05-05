@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-mgenware",
   "version": "0.0.6",
-  "description": "Another opinionated typescript-eslint config",
+  "description": "A set of opinionated rules for typescript-eslint",
   "main": "main.js",
   "author": "Mgenware (https://github.com/mgenware)",
   "homepage": "https://github.com/mgenware/eslint-config-mgenware",
@@ -22,9 +22,13 @@
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
     "eslint": "^7.25.0",
+    "eslint-plugin-import": "^2.22.1",
     "typescript": "^4.2.4"
   },
   "files": [
     "main.js"
-  ]
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-typescript-lite": "^12.1.2"
+  }
 }
