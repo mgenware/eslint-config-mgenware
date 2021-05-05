@@ -63,5 +63,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'error',
     // Allow multiple assignments.
     'no-multi-assign': 'off',
+    // Enforce import extensions.
+    'import/extensions': ['error', 'ignorePackages'],
   },
 };
