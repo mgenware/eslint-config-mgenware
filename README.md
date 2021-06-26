@@ -18,6 +18,6 @@ yarn add eslint-config-mgenware eslint "@typescript-eslint/parser" "@typescript-
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  extends: ['plugin:@typescript-eslint/recommended', 'mgenware'],
+  extends: ['mgenware'],
 };
 ```
