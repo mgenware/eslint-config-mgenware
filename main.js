@@ -1,5 +1,9 @@
 module.exports = {
-  extends: 'airbnb-typescript-lite',
+  extends: [
+    'airbnb-typescript-lite',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+  ],
   rules: {
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-plusplus': 'off',
@@ -66,5 +70,9 @@ module.exports = {
     'no-multi-assign': 'off',
     // Enforce import extensions.
     'import/extensions': ['error', 'ignorePackages'],
+    // Allow non-string types in template literals.
+    '@typescript-eslint/restrict-template-expressions': 'off',
+    // Allow member access of any type.
+    '@typescript-eslint/no-unsafe-member-access': 'off',
   },
 };
