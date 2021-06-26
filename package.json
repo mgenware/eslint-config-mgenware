@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mgenware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A set of opinionated rules for typescript-eslint",
   "main": "main.js",
   "author": "Mgenware (https://github.com/mgenware)",
@@ -19,11 +19,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.22.1",
-    "@typescript-eslint/parser": "^4.22.1",
-    "eslint": "^7.25.0",
-    "eslint-plugin-import": "^2.22.1",
-    "typescript": "^4.2.4"
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "^7.29.0",
+    "eslint-plugin-import": "^2.23.4",
+    "typescript": "^4.3.4"
   },
   "files": [
     "main.js"
