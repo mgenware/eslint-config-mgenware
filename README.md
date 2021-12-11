@@ -9,7 +9,7 @@ A set of opinionated rules for [typescript-eslint](https://github.com/typescript
 Installation:
 
 ```sh
-yarn add eslint-config-mgenware eslint "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "eslint-plugin-import" -D
+npm i -D eslint-config-mgenware eslint "@typescript-eslint/parser" "@typescript-eslint/eslint-plugin" "eslint-plugin-import"
 ```
 
 `.eslintrc.cjs`:
