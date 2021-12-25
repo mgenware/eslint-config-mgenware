@@ -35,7 +35,7 @@ async function eslint(fileName, expectedErr) {
     }
   } else {
     if (err) {
-      panic(`Expected success. Got error ${err?.message}`);
+      panic(`Expected success. Got error ${(err || {}).message}`);
     }
   }
 }
