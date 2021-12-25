@@ -1,8 +1,13 @@
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 
-const files = ['success', 'ifFunc'];
-const errors = [null, '@typescript-eslint/no-unnecessary-condition'];
+const files = ['success', 'ifFunc', 'addOperandType', 'addAssignOperandType'];
+const errors = [
+  null,
+  '@typescript-eslint/no-unnecessary-condition',
+  '@typescript-eslint/restrict-plus-operands',
+  '@typescript-eslint/restrict-plus-operands',
+];
 
 function panic(msg) {
   console.error(msg);

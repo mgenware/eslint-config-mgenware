@@ -67,5 +67,13 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': 'off',
     // Allow member access of any type.
     '@typescript-eslint/no-unsafe-member-access': 'off',
+    // Check operand types in addition assignments.
+    '@typescript-eslint/restrict-plus-operands': [
+      'error',
+      {
+        checkCompoundAssignments: true,
+        allowAny: false,
+      },
+    ],
   },
 };
