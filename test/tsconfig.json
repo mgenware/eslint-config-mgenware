@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
@@ -15,5 +15,5 @@
     "noUncheckedIndexedAccess": true,
     "newLine": "lf"
   },
-  "files": ["test.ts"]
+  "include": ["*.ts"]
 }

@@ -15,7 +15,7 @@
     "url": "https://github.com/mgenware/eslint-config-mgenware.git"
   },
   "scripts": {
-    "test": "eslint --max-warnings 0 -c ./test/.eslintrc.js --ext .ts test/"
+    "test": "node test.js"
   },
   "license": "MIT",
   "devDependencies": {
