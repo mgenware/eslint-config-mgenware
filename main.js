@@ -52,17 +52,7 @@ module.exports = {
     // Enable switch exhaustiveness check.
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     // Strict boolean expressions.
-    '@typescript-eslint/strict-boolean-expressions': [
-      'error',
-      {
-        allowString: true,
-        allowNumber: true,
-        allowNullableObject: true,
-        allowNullableBoolean: true,
-        allowNullableString: true,
-        allowNullableNumber: true,
-      },
-    ],
+    '@typescript-eslint/no-unnecessary-condition': 'error',
     // No need explicit module boundary types.
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     // Allow return assignment.
