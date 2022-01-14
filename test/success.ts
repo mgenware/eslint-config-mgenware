@@ -8,6 +8,9 @@ function doo() {
   if (noStrictBoolean) {
     console.warn('haha');
   }
+  {
+    // lone block.
+  }
   return 1;
 }
 

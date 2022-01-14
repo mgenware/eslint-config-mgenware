@@ -75,5 +75,7 @@ module.exports = {
         allowAny: false,
       },
     ],
+    // Allow lone blocks.
+    'no-lone-blocks': 'off',
   },
 };
