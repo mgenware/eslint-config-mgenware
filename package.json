@@ -29,6 +29,6 @@
     "main.js"
   ],
   "dependencies": {
-    "eslint-config-airbnb-typescript-lite": "^13.0.1"
+    "eslint-config-airbnb-typescript": "^17.0.0"
   }
 }
